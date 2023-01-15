@@ -1,6 +1,4 @@
-tensorflow==2.8.2
-flask=1.1.2
+tensorflow==2.8.0
+flask
 matplotlib
 numpy
-gunicorn
-os
