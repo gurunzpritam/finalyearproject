@@ -76,4 +76,4 @@ def get_output():
         return render_template("index.html", prediction=result ,confidence = confidence ,recommendation=recom, img_path=img_path)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=5000,debug = True)
+    app.run(host="0.0.0.0",debug=False)
